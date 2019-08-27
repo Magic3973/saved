@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.28.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.0.1",
+    "webpack-notifier": "^1.6.0"
+  },
+  "name": "html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Magic3973/saved.git",
+  "author": "fabienchapuis <fabien-chapuis@netc.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "copy-webpack-plugin": "^5.0.4"
+  }
+}
