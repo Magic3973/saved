@@ -30,6 +30,12 @@ padding-left: 270px; } }
 @media (max-width: 1199.98px) {
 .sidebar-fixed {
 display: none; } }
-.logo {
+
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }

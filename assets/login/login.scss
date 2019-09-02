@@ -1,0 +1,105 @@
+body{
+    h1 {text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        @media screen and (max-width: 767px) {
+                 margin-bottom: 15%;
+            font-size: 24px;
+            }
+        }
+
+/* block de connexion  */
+
+.login{
+    display: flex;
+    align-items: center;
+    height: 105vh;
+}
+.log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.jumbotron {
+    background-color: rgb(244, 247, 250);
+    padding: 2% 4% 0 4%;
+
+      @media screen and (max-width: 767px) {
+           padding: 2% 4% 0 4%;
+          }
+     @media (min-width: 768px) and (max-width: 1023px) {
+        margin-left: 0;
+    
+    padding: 2% 4% 0% 4%;
+    }
+     @media (min-width: 1024px) and (max-width: 1200px) {
+         padding: 5% 4% 5% 4%;
+    }
+    
+}
+#connect{        
+    padding-bottom: 4%!important;}
+
+    
+#connexion
+{ 
+    opacity: .9;
+    height: 410px;
+    width: 50%;
+   background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    @media screen and (max-width: 767px) {
+             margin-left: 0;
+        width: 100%;
+        }
+    @media (min-width: 768px) and (max-width: 1023px) {
+            margin-left: 0;
+        width: 100%;
+        }
+         @media (min-width: 1024px) and (max-width: 1200px) {
+            margin-bottom:3.5%;
+        }
+}
+.btn-connexion{
+    border: 2px solid #33b5e5;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    height: 60px;
+    width: 75%;
+    font-size: 24px;
+            color: #33b5e5;
+            margin-top: 5%;
+            margin-bottom: 5%;
+     @media screen and (max-width: 767px) {
+              font-size: 18px;
+         height: 50px;
+    width: 60%;
+              }
+         @media (min-width: 768px) and (max-width: 1023px) {
+            
+        }
+         @media (min-width: 1024px) and (max-width: 1200px) {
+           
+        }
+}
+.btn-connexion:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+.md-form label {
+    color: white;
+    font-size: 18px;
+    
+}
+
+#passwd {
+    margin-bottom: 0!important;
+    padding-bottom: 1%!important;
+}
+
+
+}

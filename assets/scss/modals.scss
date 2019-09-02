@@ -15,21 +15,79 @@
     border: 2px solid var(--groupe);
     background-color: var(--groupe);
     border-radius: 10px;
-    height: 5vh;
+    height:7vh;
     width: 10%;
     font-size: 18px;
-            color:white;
-            margin-top: 1vh;
+    color:white;
+    margin-top: 1vh;
             
-     @media screen and (max-width: 767px) {
-              font-size: 18px;
-         height: 50px;
-    width: 60%;
+    @media screen and (max-width: 767px) {
+        height:7vh;
+        width: 18%;
+        font-size: 23px;
               }
-         @media (min-width: 768px) and (max-width: 1023px) {
-            border-radius: 50%;
+    @media (min-width: 768px) and (max-width: 1023px) {
+        height:4.5vh;
+        width: 32%;
+        font-size: 20px;
         }
-         @media (min-width: 1024px) and (max-width: 1200px) {
-            border-radius: 50%;
+    @media (min-width: 1024px) and (max-width: 1200px) {
+        height:8vh;
+        width: 12%;
+        font-size: 20px;
         }
+        p{
+            font-family: "openl";
+            font-size: 12px;
+            text-transform: uppercase;
+            @media screen and (max-width: 767px) {
+                font-size:16px;
+                      }
+            @media (min-width: 768px) and (max-width: 1023px) {
+                font-size: 16px;
+                }
+            @media (min-width: 1024px) and (max-width: 1200px) {
+                font-size: 16px;
+                }
+        }
+    }
+    .modal-header{
+    background-color: var(--groupe)!important;
 }
+a.btn.btn-outline-success.waves-effect{
+    color: var(--groupe)!important;
+}
+.group {
+    list-style-type: none;
+    text-align:center;
+    }
+
+li {text-align: left;
+    padding-right:3vh;
+    font-family: "openl";
+    font-size: 15px;
+}
+li.space{
+    margin-bottom: 5vh;
+}
+li.space2{
+    margin-bottom: 3vh;
+}
+.modal-footer {padding:0!important;}
+
+.modal-content{
+    height: 80vh;
+}
+.modal-dialog{
+    max-width: 750px!important;
+}
+.btn{
+    width: 25%;
+}
+.group{
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display:flex;
+        }
+    
+}
+
