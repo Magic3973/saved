@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+{% block title %}Connexion Saved{% endblock %}
+{% block stylesheets %}
+<link rel="stylesheet" href="build/css/login.css">{% endblock %}
+{% block body %}
+
+<div class="container-fluid login">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 jumbotron" id="connect">
+                <div class="log">
+                    <h1>Bienvenue sur</h1><img class="img-fluid" src="/build/images/logo.png" alt="logo de l'application" height="454" width="300">
+                </div>
+                <div class="card card-image" id="connexion">
+
+                    <div class="card-body mx-4">
+
+                        <!--Header-->
+                        <div class="text-center">
+                            <h3 class="dark-grey-text mb-5">S'identifier</h3>
+                        </div>
+
+                        <!--Body-->
+                        <form action="" method="post">
+                            <div class="md-form">
+
+                                <input type="text" name="login" id="Form-email1" class="form-control">
+                                <label for="Form-email1">Votre email<span class="msg-error"></span></label>
+                            </div>
+
+                            <div class="md-form pb-3" id="passwd">
+                                <input type="password" name="pwd" id="Form-pass1" class="form-control">
+                                <label for="Form-pass1">Votre mot de passe<span class="msg-error"></span></label>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                                        <label class="custom-control-label" for="defaultLoginFormRemember">Se souvenir de moi</label>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="">Mot de passe oublié?</a>
+                                </div>
+                            </div>
+
+                            <div class="text-center mb-3">
+                                <button type="submit" value="login" class="btn-connexion">Connexion</button>
+                                <div class="text-center">
+                                    <p>Pas inscrit?
+                                        <a href="">Inscription bénévole</a> où <a href="">Inscription association</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

@@ -1,0 +1,35 @@
+.modals{
+    @media screen and (max-width: 767px) {
+        display:flex;
+    flex:row;
+        }
+   @media (min-width: 768px) and (max-width: 1023px) {
+    display:flex;
+    flex:row;
+   
+}
+}
+
+.btn-groupe{
+    font-family: "openb";
+    border: 2px solid var(--groupe);
+    background-color: var(--groupe);
+    border-radius: 10px;
+    height: 5vh;
+    width: 10%;
+    font-size: 18px;
+            color:white;
+            margin-top: 1vh;
+            
+     @media screen and (max-width: 767px) {
+              font-size: 18px;
+         height: 50px;
+    width: 60%;
+              }
+         @media (min-width: 768px) and (max-width: 1023px) {
+            border-radius: 50%;
+        }
+         @media (min-width: 1024px) and (max-width: 1200px) {
+            border-radius: 50%;
+        }
+}

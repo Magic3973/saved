@@ -13,6 +13,30 @@
       "css": [
         "/build/css/base.css"
       ]
+    },
+    "css/login": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/css/login.css"
+      ]
+    },
+    "css/modals": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/css/modals.css"
+      ]
+    },
+    "css/header": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/css/header.css"
+      ]
     }
   }
 }

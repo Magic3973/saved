@@ -14,8 +14,10 @@ Encore
     // only needed for CDN's or sub-directory deploy
     //.setManifestKeyPrefix('build/')
     .addStyleEntry('css/base','./assets/scss/base.scss')
-    // .addStyleEntry('css/about','./assets/scss/about.scss')
-    // .addStyleEntry('css/folio','./assets/scss/folio.scss')
+    .addStyleEntry('css/login','./assets/scss/login.scss')
+    .addStyleEntry('css/modals','./assets/scss/modals.scss')
+    .addStyleEntry('css/header','./assets/scss/header.scss')
+ 
     /*
      * ENTRY CONFIG
      *
@@ -68,6 +70,8 @@ Encore
         { from: 'assets/images', to: 'images' },
         { from: 'assets/icones', to: 'icones' },
         { from:'assets/fonts', to:'fonts'},
+        { from:'assets/css2', to:'css2'},
+
     // uncomment if you're having problems with a jQuery plugin
     //.autoProvidejQuery()
 
